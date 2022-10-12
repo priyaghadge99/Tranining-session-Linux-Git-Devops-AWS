@@ -1,0 +1,23 @@
+On EC2 instance :
+sudo su 
+yum install docker
+service docker status
+service docker start
+In windows if getting error :
+Open Windows feature -
+make sure that two checkbox are tik
+container n hyper V
+by doing this getting error 
+need to check with bias setting about ---Virtuaization disable setting 
+==============================================
+Create account on hub.docker.com 
+Used play with docker --
+============Docker-=================
+1. Docker pull hello world  -- only pull the images 
+2. Docker run hello- world  -- pull the image out of container (Docker hub where all images are present ) and create a container
+3. Docker images   -- will list all the images present 
+Docker Client -- which fires the command (terminal)
+                    -- making rest API call to Docker deamon/server
+Docker Server -- Docker deamon (tool responsible for creating and running images )
+                    -- by default talk to public /private registry (docker.hub)
+Docker registry -- hub.docker.com
