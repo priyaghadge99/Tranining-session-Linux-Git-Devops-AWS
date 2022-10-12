@@ -1,0 +1,30 @@
+commands of Docker
+Run on terminal 
+1. Docker info - to check version of docker
+2. docker run -p 5000:8000 jenkins:2.60.3-alpine
+
+docker containor running on port 5000 and fetching jenkins
+
+will put url 
+localhost:5000
+
+To check container 
+3. docker container ls 
+
+To stop container 
+4 . docker container rm -f 808a
+===================================================
+EC2 instance :
+
+become root user : 
+# sudo -i 
+
+in EC2 instance : 
+url to check jenkin running or not : public address : 8080
+
+
+to collect inial admin password
+cat respective path
+
+
+to run jar file : java -cp jarname.jar packagename.classname 
